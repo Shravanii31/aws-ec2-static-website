@@ -28,3 +28,6 @@ Storage → Amazon EBS
 ## Live Demo
 Website hosted using EC2 public IP address.
 
+## Python + AWS Integration
+A Python script running on an EC2 instance uses the boto3 SDK to securely access Amazon S3 and list stored objects. Access is granted using an IAM role attached to the EC2 instance, following AWS security best practices.
+
